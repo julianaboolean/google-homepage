@@ -1,8 +1,25 @@
 body {
-    background-color: white;
+    background-color: black;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Googlelogo {
+   position: relative;
+   
   }
 
   .searchbar {
-    display: grid;
-    justify-self: center;
+
+  }
+
+  .Searchbutton {
+   
+  }
+
+  .Imfeelinlucky {
+
   }
