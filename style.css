@@ -1,25 +1,28 @@
 body {
-    background-color: black;
-    height: 450px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding-top: 109px;
   }
 
   .Googlelogo {
-   position: relative;
-   
+
   }
 
   .searchbar {
-
+    width: 575px;
+    height: 40px;
   }
 
   .Searchbutton {
-   
+    height: 40px;
+    width: 130px;
+    font-size: 14px;
   }
 
   .Imfeelinlucky {
-
+    height: 40px;
+    width: 130px;
+    font-size: 14px;
   }
