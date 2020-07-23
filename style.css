@@ -5,24 +5,16 @@ body {
     align-items: center;
     padding-top: 109px;
   }
-
   .Googlelogo {
-
+    margin: auto;
+    width: auto;
   }
-
-  .searchbar {
-    width: 575px;
-    height: 40px;
+  /*.searchbar {
+ 
   }
-
   .Searchbutton {
-    height: 40px;
-    width: 130px;
-    font-size: 14px;
+    
   }
-
   .Imfeelinlucky {
-    height: 40px;
-    width: 130px;
-    font-size: 14px;
-  }
+    
+  }*/
