@@ -1,17 +1,35 @@
 body {
     display: grid;
-    grid-template-rows: auto 1fr auto;
     background-color: tan;
     height: 200px;
   }  
 
   .navbar {
     background-color: lightgreen;
-    display: inline-block; /* Allows all elements to be on a single row */
+    display: flex; 
     padding-left: 15px;
     font-size: 14px;
     font-family: arial,sans-serif;
     margin-left: 20px;
+    justify-content: space-between; /* how to get that nice space between */ 
+  }
+
+  .navbar-right {
+    display: grid;
+    background-color: lightskyblue;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 50px;
+    grid-template-areas: "about store";
+    padding-left: 1em;
+  }
+
+  .navbar-left {
+    display: grid;
+    background-color: magenta;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px;
+    grid-template-areas: "gmail images";
+    padding-left: 1em;
   }
 
   .Google-logo {
