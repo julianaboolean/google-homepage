@@ -1,6 +1,5 @@
 body {
     display: grid;
-    height: 200px;
   }  
 
   .top-navbar {
@@ -41,7 +40,7 @@ body {
 
   .searchbar {
     display: grid;
-    margin: 0 auto; /* Centers the search bar */
+    margin: auto; /* Centers the search bar */
     padding: 6px;
     margin-top: 30px;
     width: 400px;
@@ -51,16 +50,24 @@ body {
  
   .Buttons
   {
-    display: inline-block;
-    gap: 15px;
-    margin: 11px 4px;
-    padding-top: 10px;
+    display: flex;
+    margin: auto;
+    gap: 15px;                        /* Spaces between the buttons*/
+    padding-top: 20px;
     font-size: 14px;
     font-family: arial,sans-serif;
+  }
+  .Left-Button
+  {
+    border: 1px solid #f2f2f2;    /* Creates border around left button */
+    border-radius: 4px;               /* rounds the corners */
     text-align: center;
-    font-size: 14px;
-    font-family: arial, sans-serif;
-    border-radius: 4px; /* rounds the corners */
+    
+   }
+
+  .Right-Button
+  {
+    border-radius: 4px;               /* rounds the corners */
   }
 
   .footer {
@@ -71,6 +78,8 @@ body {
     display: flex;
     justify-content: space-between; /* how to get that nice space between */ 
     width: 100%;                    /* how to get that nice space between */ 
+    background: #f2f2f2;          /* Colors background */ 
+    border: 1px solid #f2f2f2;    /* Creates border around footer */
   }
   
   .footer-left {
@@ -78,12 +87,12 @@ body {
     grid-template-columns: 100px 100px 150px;
     grid-template-rows: 10px;
     grid-template-areas: "advertising business hsw";
-    padding-left: 1em;
+    padding-left: 1em;  
   }
   
   .footer-right {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 75px 75px 75px;
     grid-template-rows: 50px;
     grid-template-areas: "privacy terms settings";
     padding-right: 1em;
