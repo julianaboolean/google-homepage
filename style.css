@@ -40,7 +40,7 @@ body {
 
   .searchbar {
     display: grid;
-    margin: auto; /* Centers the search bar */
+    margin: auto;               /* Centers the search bar */
     padding: 6px;
     margin-top: 30px;
     width: 400px;
