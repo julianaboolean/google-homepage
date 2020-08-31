@@ -2,6 +2,12 @@ body {
     display: grid;
   }  
 
+  a {
+    text-decoration: none;        /* Remove text styles */ 
+    color: rgb(0,0,0,0.87);
+    font-size: 13px;
+}
+
   .top-navbar {
     display: flex; 
     font-size: 14px;
@@ -20,8 +26,8 @@ body {
     grid-template-rows: 50px;
     grid-template-areas: "about store";
     padding-right: 1em;
-
   }
+
 
   .navbar-left {
     display: grid;
@@ -45,7 +51,7 @@ body {
     margin-top: 30px;
     width: 400px;
     font-size: 17px;
-    border-radius: 4px;
+    border-radius: 30px;
   }
  
   .Buttons
@@ -59,22 +65,23 @@ body {
   }
   .Left-Button
   {
-    border: 1px solid #f2f2f2;    /* Creates border around left button */
     border-radius: 4px;               /* rounds the corners */
     text-align: center;
-    
+  
    }
 
   .Right-Button
   {
     border-radius: 4px;               /* rounds the corners */
+    text-align: center;
+    border: none;             /* rounds the corners */
   }
 
   .footer {
     font-size: 14px;
     font-family: arial, sans-serif;
-    position: absolute;
-    bottom: 0px;
+    position: absolute;             /* Moves the footer to the bottom*/
+    bottom: 0px;                    /* Moves the footer to the bottom*/
     display: flex;
     justify-content: space-between; /* how to get that nice space between */ 
     width: 100%;                    /* how to get that nice space between */ 
@@ -88,6 +95,8 @@ body {
     grid-template-rows: 10px;
     grid-template-areas: "advertising business hsw";
     padding-left: 1em;  
+    align-self: center;
+    justify-self: center;
   }
   
   .footer-right {
@@ -96,4 +105,6 @@ body {
     grid-template-rows: 50px;
     grid-template-areas: "privacy terms settings";
     padding-right: 1em;
+    align-self: center;
+    justify-self: center;
   }
