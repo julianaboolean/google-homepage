@@ -1,6 +1,6 @@
 body {
     display: grid;
-  }  
+  }/ 
 
   a {
     text-decoration: none;        /* Remove text styles */ 
@@ -46,8 +46,8 @@ body {
 
   .searchbar {
     display: grid;
-    margin: auto;               /* Centers the search bar */
-    padding: 6px;
+    margin: auto;               /* Centers the search bar */ 
+    padding: 6px;          
     margin-top: 30px;
     width: 400px;
     font-size: 17px;
@@ -74,7 +74,7 @@ body {
   {
     border-radius: 4px;               /* rounds the corners */
     text-align: center;
-    border: none;             /* rounds the corners */
+    border: none;                     /* rounds the corners */
   }
 
   .footer {
